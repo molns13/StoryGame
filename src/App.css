@@ -91,6 +91,8 @@
 
 .choiceBtn {
     padding: 12px 14px;
+    margin-left: 12px;
+    margin-top: 6px;
     text-align: left;
     cursor: pointer;
     border-radius: 14px;
