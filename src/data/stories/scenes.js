@@ -78,7 +78,7 @@ gorge: {
         { id: "gorge_wait", text: "Várok és figyelem a környéket.", next: "echo" },
     ],
 },
-// ------------------------
+
   markings: {
     image: "markings.webp",
     text: "A vésett jelek hidegek, mint a jég. Amint végigsimítod őket, a kör alakú mélyedésben halványan felizzik valami. A köd körülötted örvényleni kezd, és távoli suttogás felel a mozdulatodra.",
@@ -121,8 +121,8 @@ gorge: {
     image: "camp.webp",
     text: "A tűzrakóhely hamuja között egy félig elégett térképdarab és egy rozsdás késpenge hever. A térképen egy jel: kőkapu a patak fölött. A késpenge nyelén rovások futnak, mintha valaki számolt volna vele… vagy valamit jelölt.",
     choices: [
-      { id: "camp_take_map", text: "Elteszem a térképdarabot.", next: "trees", addItem: "Térképdarab" },
-      { id: "camp_take_blade", text: "Felveszem a rozsdás pengét.", next: "trees", addItem: "Rozsdás penge" },
+      { id: "camp_take_map", text: "Elteszem a térképdarabot.", next: "camp", addItem: "Térképdarab" },
+      { id: "camp_take_blade", text: "Felveszem a rozsdás pengét.", next: "camp", addItem: "Rozsdás penge" },
       { id: "camp_follow_mark", text: "A térkép jelét követem a sűrűben.", next: "gate" },
     ],
   },
