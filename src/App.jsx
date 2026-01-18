@@ -149,6 +149,7 @@ export default function App() {
             <SceneView
               key={`${storyKey}-${sceneId}`}
               scene={scene}
+              scenes={activeScenes}
               inventory={inventory}
               onChoose={handleChoose}
             />
