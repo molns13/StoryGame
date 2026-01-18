@@ -217,7 +217,7 @@ gorge: {
     image: "chamber.webp",
     text: "A járat egy kicsi, kővel kirakott kamrába torkollik. A falon csillogó írás fut: „A köd csak kapu. A kapu csak alku.” A földön egy repedt tükördarab hever, és a felületén olyan fény villan, ami itt nem létezhetne.",
     choices: [
-      { id: "chamber_take_mirror", text: "Felveszem a tükördarabot.", next: "gorge", addItem: "Tükördarab" },
+      { id: "chamber_take_mirror", text: "Felveszem a tükördarabot.", next: "chamber", addItem: "Tükördarab" },
       { id: "chamber_follow_symbols", text: "Követem az írást a fal mentén.", next: "sanctum" },
     ],
   },
